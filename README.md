@@ -6,7 +6,8 @@ Demo project using [Angular](http://angularjs.com) and [Keboola Angular Library]
 ## Development
 
 * Clone the repo
-* Install dependencies `npm install && bower install --dev`
+* Instal global dependencies `npm install -g grunt-cli bower`
+* Install local dependencies `npm install && bower install --dev`
 * Server, watch and test with live reload `grunt server`
 
 ## Build dist package
