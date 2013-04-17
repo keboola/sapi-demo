@@ -1,6 +1,6 @@
 'use strict'
 
-angular.module('sapiDemoApp', [])
+angular.module('sapiDemoApp', ['kb'])
   .config ['$routeProvider', ($routeProvider) ->
     $routeProvider
       .when '/',

@@ -1,9 +1,22 @@
 <div class="hero-unit">
-  <h1>'Allo, 'Allo!</h1>
-  <p>You now have</p>
-  <ul>
-      <li ng-repeat="thing in awesomeThings">{{thing}}</li>
-  </ul>
-  <p>installed.</p>
-  <h3>Enjoy coding! - Yeoman</h3>
+ <h1>Keboola SAPI Project Demo<h1>
+
+ <input type="text" ng-model="token" required/>
+ <button class="btn btn-primary" ng-disabled="!token" ng-click="useToken(token)">Use token</button>
+
+ <h2>Buckets 
+ 	<kb-loader is-loading="bucketsLoading" ng-click="loadBuckets()" title="Reload buckets"></kb-loader>
+ </h2>
+ <p>
+ 	<ul>
+ 		<li ng-repeat="bucket in buckets">
+ 			{{ bucket.id }}
+ 			<ul>
+ 				<li ng-repeat="table in bucket.tables">
+ 					{{ table.name }}
+ 				</li>
+ 			</ul>
+ 		</li>
+ 	</ul>
+ </p>
 </div>
