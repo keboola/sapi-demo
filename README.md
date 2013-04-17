@@ -12,3 +12,6 @@ Demo project using [Angular](http://angularjs.com) and [Keboola Angular Library]
 ## Build dist package
 
 * `grunt` builds app into `dist` folder
+
+
+Read more in [Keboola Public Project Guidelines](https://github.com/keboola/public-project-guidelines)
