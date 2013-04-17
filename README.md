@@ -5,10 +5,10 @@ Demo project using [Angular](http://angularjs.com) and [Keboola Angular Library]
 
 ## Development
 
-* * Clone the repo
+* Clone the repo
 * Install dependencies `npm install && bower install --dev`
 * Server, watch and test with live reload `grunt server`
 
 ## Build dist package
 
-* `grunt`
+* `grunt` builds app into `dist` folder
